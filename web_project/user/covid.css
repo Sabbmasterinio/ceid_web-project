@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100% !important;
+    background: linear-gradient(90deg, rgb(190, 190, 252) 42%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    margin-top: -10%;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0, 0 6px 20px 0;
+    background-color: white;
+}
